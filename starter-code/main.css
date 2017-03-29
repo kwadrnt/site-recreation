@@ -55,7 +55,10 @@ nav ul li:first-child {
 	vertical-align: top;
 }
 .footer {
-
+	background-color: #ddd;
+	  margin-top: 20px;
+	  min-height: 200px;
+	  padding-top: 20px;
 }
 .content {
 	margin: 0 auto;
@@ -64,14 +67,26 @@ nav ul li:first-child {
 	width: 100%;
 }
 .row {
-
+	margin-top: 20px;
 }
 .column {
-
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: top;
+	width: 30%;
+}
+.column:last-child {
+  margin-right: 0;
+}
+.note, .request {
+  min-height: 180px;
+  padding: 10px 20px;
 }
 .note {
-
+	background-color: #4267b1;
+	color: #fff;
+	border: 1px solid transparent;
 }
 .request {
-
+	border: 1px solid #ddd;
 }
